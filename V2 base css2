@@ -34,7 +34,7 @@
 
 /* --- Mod Labels --- */
 
-#container a[href$="/user/system"]:after {
+#container a[href$="/user/"]:after {
 		background: #2a934b ;
 		content: "Not A Mod";
 		padding: 2px px;
@@ -98,6 +98,9 @@
 /* --- reacher's '' I've forgotten what code does what'' code --- */
 
 .comment a.moderator.author,.comment a.submitter.author{background-color:#79A6D2;padding:3px 16px;border-radius:4px;color:#fff!important;font-weight:700}.comment a.moderator.author{background-color:#3fbf4c}.commentarea>.sitetable span.userattrs{visibility:hidden}.commentarea>.sitetable span.userattrs a{display:inline-block;visibility:visible;width:13px;height:12px;line-height:12px;text-align:center;font-weight:500;background:#79A6D2!important;color:#fff!important;border-radius:2px!important}.commentarea>.sitetable span.userattrs a:hover{text-decoration:none}.dark .commentarea>.sitetable span.userattrs a{background:#79A6D2!important;color:#212121!important}
+
+}
+
 /**user Flairs**/
 /**example page**/
 a[href="/1"]:after, a[href="/2"]:after, a[href="/3"]:after, a[href="/4"]:after, a[href="/5"]:after, 
