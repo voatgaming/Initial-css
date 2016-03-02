@@ -99,3 +99,172 @@
 
 .comment a.moderator.author,.comment a.submitter.author{background-color:#79A6D2;padding:3px 16px;border-radius:4px;color:#fff!important;font-weight:700}.comment a.moderator.author{background-color:#3fbf4c}.commentarea>.sitetable span.userattrs{visibility:hidden}.commentarea>.sitetable span.userattrs a{display:inline-block;visibility:visible;width:13px;height:12px;line-height:12px;text-align:center;font-weight:500;background:#79A6D2!important;color:#fff!important;border-radius:2px!important}.commentarea>.sitetable span.userattrs a:hover{text-decoration:none}.dark .commentarea>.sitetable span.userattrs a{background:#79A6D2!important;color:#212121!important}
 
+}
+
+/**user Flairs**/
+/**example page**/
+a[href="/1"]:after, a[href="/2"]:after, a[href="/3"]:after, a[href="/4"]:after, a[href="/5"]:after, 
+a[href="/6"]:after, a[href="/7"]:after, a[href="/8"]:after, a[href="/9"]:after, a[href="/10"]:after, 
+a[href="/11"]:after, a[href="/12"]:after, a[href="/13"]:after, a[href="/14"]:after, a[href="/15"]:after, 
+a[href="/16"]:after, a[href="/17"]:after, a[href="/18"]:after, a[href="/19"]:after, a[href="/20"]:after, 
+a[href="/21"]:after, a[href="/22"]:after, a[href="/23"]:after, a[href="/24"]:after, a[href="/25"]:after, 
+a[href="/26"]:after, a[href="/27"]:after, a[href="/28"]:after, a[href="/29"]:after, a[href="/30"]:after, 
+a[href="/31"]:after, a[href="/32"]:after, a[href="/33"]:after, a[href="/34"]:after, a[href="/35"]:after, 
+a[href="/36"]:after, a[href="/37"]:after, a[href="/38"]:after, a[href="/39"]:after, a[href="/40"]:after  {
+    width: 40px;
+    height: 40px;
+    content: "";
+    display: inline-block;
+    background-image: url(https://i.imgur.com/geyZSYs.png);
+background-repeat: no-repeat;
+}
+a[href="/1"]:after {
+    background-position: 0 0;
+}
+a[href="/2"]:after {
+    background-position: 0 -40px;
+}
+a[href="/3"]:after {
+    background-position: 0 -80px;
+}
+a[href="/4"]:after {
+    background-position: 0 -120px;
+}
+a[href="/5"]:after {
+    background-position: 0 -160px;
+}
+a[href="/6"]:after {
+    background-position: 0 -200px;
+}
+a[href="/7"]:after {
+    background-position: 0 -240px;
+}
+a[href="/8"]:after {
+    background-position: 0 -280px;
+}
+a[href="/9"]:after {
+    background-position: 0 -320px;
+}
+a[href="/10"]:after {
+    background-position: 0 -360px;
+}
+a[href="/11"]:after {
+    background-position: 0 -400px;
+}
+a[href="/12"]:after {
+    background-position: 0 -440px;
+}
+a[href="/13"]:after {
+    background-position: 0 -480px;
+}
+a[href="/14"]:after {
+    background-position: 0 -520px;
+}
+a[href="/15"]:after {
+    background-position: 0 -560px;
+}
+a[href="/16"]:after {
+    background-position: 0 -600px;
+}
+a[href="/17"]:after {
+    background-position: 0 -640px;
+}
+a[href="/18"]:after {
+    background-position: 0 -680px;
+}
+a[href="/19"]:after {
+    background-position: 0 -720px;
+}
+a[href="/20"]:after {
+    background-position: 0 -760px;
+}
+a[href="/21"]:after {
+    background-position: 0 -800px;
+}
+a[href="/22"]:after {
+    background-position: 0 -840px;
+}
+a[href="/23"]:after {
+    background-position: 0 -880px;
+}
+a[href="/24"]:after {
+    background-position: 0 -920px;
+}
+a[href="/25"]:after {
+    background-position: 0 -960px;
+}
+a[href="/26"]:after {
+    background-position: 0 -1000px;
+}
+a[href="/27"]:after {
+    background-position: 0 -1040px;
+}
+a[href="/28"]:after {
+    background-position: 0 -1080px;
+}
+a[href="/29"]:after {
+    background-position: 0 -1120px;
+}
+a[href="/30"]:after {
+    background-position: 0 -1160px;
+}
+a[href="/31"]:after {
+    background-position: 0 -1200px;
+}
+a[href="/32"]:after {
+    background-position: 0 -1240px;
+}
+a[href="/33"]:after {
+    background-position: 0 -1280px;
+}
+a[href="/34"]:after {
+    background-position: 0 -1320px;
+}
+a[href="/35"]:after {
+    background-position: 0 -1360px;
+}
+a[href="/36"]:after {
+    background-position: 0 -1400px;
+}
+a[href="/37"]:after {
+    background-position: 0 -1440px;
+}
+a[href="/38"]:after {
+    background-position: 0 -1480px;
+}
+a[href="/39"]:after {
+    background-position: 0 -1520px;
+}
+a[href="/40"]:after {
+    background-position: 0 -1560px;
+}
+/**example page**end**/
+/**flair base -- do not edit**/
+/**flair base   https://i.imgur.com/geyZSYs.png  **/
+#container a[href*="/user/"]:after { 
+    content: '';
+    background-repeat:  no-repeat;
+    text-indent: 40px;
+    color: #C39953;
+    padding: 15px 4px 12px 40px;
+    margin: 4px;
+    background-position: 300px 0;
+    background-repeat: no-repeat;
+    line-height: 40px;
+    height: 40px;
+    background-image: url(https://i.imgur.com/geyZSYs.png);
+}
+.side ul.content li {margin: 6px;}
+/**flair base end**/
+
+/**user flair settings**/
+/**mods extras**/
+#container a[href$="/user/ChillyHellion"]:hover:after, 
+#container a[href$="/user/Kadynce"]:hover:after,
+#container a[href$="/user/Pikachuintheshower"]:hover:after,  
+#container a[href$="/user/reacher"]:hover:after {
+    content: ' ★ mod'; 
+}
+/**mods end**/
+
+}
