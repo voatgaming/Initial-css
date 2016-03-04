@@ -65,7 +65,7 @@
 
 /* --- Mod Labels --- */
 
-#container a[href$="/user/system"]:after {
+#container a[href$="/user/"]:after {
 		background: #c60000 ;
 		content: "NPC";
 		padding: 2px px;
